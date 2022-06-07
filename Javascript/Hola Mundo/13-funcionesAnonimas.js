@@ -13,14 +13,16 @@ function sumame(num1, num2, sumaYMuestra, sumaPorDos) {
     return sumar;
 }
 
-//CallBack
+//CallBack y Arrow
 
 sumame(5, 3, function (dato) {
     console.log("La suma es ", dato)
 },
-    function (dato) {
+    dato => {
         console.log("La suma por dos es ", (dato * 2));
     });
+
+    
 
 
 

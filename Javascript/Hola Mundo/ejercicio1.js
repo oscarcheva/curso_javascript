@@ -18,3 +18,4 @@ while (numero1 <= 0 || numero2 <= 0 || isNaN(numero1) || isNaN(numero2)) {
         console.log("Numero2 es mayor")
     )
 }
+

@@ -34,6 +34,13 @@ busqueda = texto2.startsWith("Ho");
 console.log(busqueda);
 busqueda = texto2.includes("de");
 console.log(busqueda);
-
+busqueda = texto2.replace("Hola","What is what");
+console.log(busqueda);
+busqueda = texto2.slice(3,4);
+console.log(busqueda);
+busqueda = texto2.split(" ");
+console.log(busqueda);
+busqueda = texto2.trim();
+console.log(busqueda);
 
 
